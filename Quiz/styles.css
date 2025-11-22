@@ -1,0 +1,462 @@
+/* ---------------------------------------------------
+   RESET + BASE
+-----------------------------------------------------*/
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Poppins", Arial, sans-serif;
+  background-color: #121212;
+  color: #ffffff;
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 0;
+}
+
+/* LIGHT THEME */
+body.light-theme {
+  background-color: #f4f4f5;
+  color: #111827;
+}
+
+/* ---------------------------------------------------
+   MAIN CONTAINER
+-----------------------------------------------------*/
+.container {
+  background-color: #1e1e1e;
+  width: 100%;
+  max-width: 480px;
+  padding: 20px;
+  border-radius: 16px;
+  box-shadow: 0 0 25px rgba(0, 0, 0, 0.4);
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+body.light-theme .container {
+  background-color: #ffffff;
+  color: #111827;
+  box-shadow: 0 0 25px rgba(0, 0, 0, 0.15);
+}
+
+/* ---------------------------------------------------
+   HEADINGS
+-----------------------------------------------------*/
+h1,
+h2 {
+  text-align: center;
+  margin-bottom: 12px;
+  color: #ffffff;
+}
+
+body.light-theme h1,
+body.light-theme h2 {
+  color: #111827;
+}
+
+.subtitle {
+  text-align: center;
+  color: #d4d4d4;
+  margin-bottom: 6px;
+}
+
+.subtitle.small {
+  font-size: 0.85rem;
+  color: #a3a3a3;
+}
+
+/* ---------------------------------------------------
+   BUTTONS
+-----------------------------------------------------*/
+button {
+  width: 100%;
+  padding: 12px;
+  border-radius: 12px;
+  border: none;
+  font-weight: 600;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: 0.15s ease;
+  background: #6366f1;
+  color: #ffffff;
+  box-shadow: 0 5px 12px rgba(99, 102, 241, 0.4);
+}
+
+button:hover {
+  transform: scale(1.03);
+}
+
+.secondary-btn {
+  margin-top: 8px;
+  background: transparent;
+  border: 1px solid #4b5563;
+  box-shadow: none;
+}
+
+body.light-theme .secondary-btn {
+  border-color: #9ca3af;
+}
+
+/* ---------------------------------------------------
+   INPUTS & SELECT FIELDS
+-----------------------------------------------------*/
+input,
+select {
+  width: 100%;
+  padding: 10px;
+  border-radius: 10px;
+  border: none;
+  margin-bottom: 12px;
+  font-size: 1rem;
+  background-color: #262626;
+  color: #ffffff;
+}
+
+body.light-theme input,
+body.light-theme select {
+  background-color: #e5e7eb;
+  color: #111827;
+}
+
+.label {
+  font-size: 0.85rem;
+  margin-bottom: 4px;
+  color: #d4d4d4;
+}
+
+body.light-theme .label {
+  color: #111827;
+}
+
+/* ---------------------------------------------------
+   THEME TOGGLE
+-----------------------------------------------------*/
+.theme-toggle {
+  position: fixed;
+  top: 20px;
+  right: 25px;
+  background: rgba(0, 0, 0, 0.3);
+  backdrop-filter: blur(4px);
+  border: 1px solid rgba(255, 255, 255, 0.15);
+  border-radius: 50%;
+  padding: 10px;
+  font-size: 1.3rem;
+  cursor: pointer;
+  z-index: 999;
+  box-shadow: 0 0 8px rgba(0, 0, 0, 0.3);
+}
+
+body.light-theme .theme-toggle {
+  background: rgba(255, 255, 255, 0.7);
+  border-color: rgba(0, 0, 0, 0.15);
+  color: #111;
+}
+
+/* ---------------------------------------------------
+   AVATAR SELECTOR
+-----------------------------------------------------*/
+.avatar-options {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  margin: 8px 0 16px;
+  justify-content: center;
+}
+
+.avatar-option {
+  width: 45px;
+  height: 45px;
+  border-radius: 50px;
+  border: 1px solid #4b5563;
+  background: #111827;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 1.3rem;
+  cursor: pointer;
+  transition: 0.15s ease;
+}
+
+.avatar-option.selected {
+  border-color: #a855f7;
+  box-shadow: 0 0 10px rgba(168, 85, 247, 0.7);
+  transform: translateY(-2px) scale(1.08);
+  background: #1f2937;
+}
+
+body.light-theme .avatar-option {
+  background: #e5e7eb;
+  border-color: #9ca3af;
+}
+
+body.light-theme .avatar-option.selected {
+  background: #e0e7ff;
+  border-color: #6366f1;
+}
+
+/* ---------------------------------------------------
+   HUD & TIMER
+-----------------------------------------------------*/
+#hud {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 12px;
+}
+
+.progress-bar {
+  width: 100%;
+  height: 6px;
+  background: #333;
+  border-radius: 6px;
+  margin-top: 6px;
+  overflow: hidden;
+}
+
+#progress-fill {
+  height: 100%;
+  width: 0%;
+  background: #10b981;
+  transition: width 0.3s ease;
+}
+
+.timer-label {
+  font-size: 0.9rem;
+}
+
+/* ---------------------------------------------------
+   QUESTIONS & CHOICES
+-----------------------------------------------------*/
+#question-text {
+  margin-bottom: 12px;
+}
+
+#choices-list {
+  list-style: none;
+  margin-bottom: 12px;
+}
+
+.choice-item {
+  background-color: #262626;
+  padding: 12px 14px;
+  border-radius: 999px; /* pill shape */
+  margin-bottom: 10px;
+  cursor: pointer;
+  border: 1px solid transparent;
+  transition: background 0.15s ease, transform 0.15s ease,
+    box-shadow 0.15s ease, border 0.15s ease;
+}
+
+.choice-item:hover {
+  background-color: #333333;
+}
+
+
+.choice-item.disabled {
+  opacity: 0.6;
+  cursor: not-allowed;
+}
+
+body.light-theme .choice-item {
+  background-color: #e5e7eb;
+  color: #111827;
+}
+
+body.light-theme .choice-item:hover {
+  background-color: #d4d4d8;
+}
+
+/* strong highlight for correct / wrong (both themes) */
+.choice-item.correct,
+body.light-theme .choice-item.correct {
+  background: radial-gradient(circle at 30% 30%, #bbf7d0, #16a34a) !important;
+  color: #052e16 !important;
+  border: 2px solid #4ade80;
+  box-shadow: 0 0 22px rgba(34, 197, 94, 0.9);
+  transform: translateY(-1px) scale(1.06);
+}
+
+.choice-item.wrong,
+body.light-theme .choice-item.wrong {
+  background: radial-gradient(circle at 30% 30%, #fecaca, #dc2626) !important;
+  color: #450a0a !important;
+  border: 2px solid #fca5a5;
+  box-shadow: 0 0 22px rgba(239, 68, 68, 0.9);
+  transform: translateY(-1px) scale(1.06);
+}
+
+
+/* ---------------------------------------------------
+   SHARE BUTTONS + RESULT
+-----------------------------------------------------*/
+.share-container {
+  margin-top: 14px;
+}
+
+.share-title {
+  text-align: center;
+  font-size: 0.9rem;
+  margin-bottom: 8px;
+}
+
+.share-buttons {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  justify-content: center;
+  margin-bottom: 10px;
+}
+
+.share-btn {
+  flex: 1 1 30%;
+  min-width: 90px;
+  padding: 6px 8px;
+  font-size: 0.8rem;
+}
+
+/* result text spacing */
+#result-container {
+  text-align: center;
+}
+
+#result-container h2 {
+  margin-bottom: 8px;
+}
+
+#result-container p {
+  margin-bottom: 4px;
+}
+
+#restart-btn {
+  margin-top: 6px;
+}
+
+/* ---------------------------------------------------
+   LEADERBOARD
+-----------------------------------------------------*/
+#leaderboard-section ul {
+  list-style: none;
+  padding: 0;
+  margin-top: 12px;
+}
+
+.leaderboard-item {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  background-color: #262626;
+  padding: 12px;
+  border-radius: 10px;
+  margin-bottom: 10px;
+  animation: slideUp 0.25s ease;
+}
+
+body.light-theme .leaderboard-item {
+  background-color: #e5e7eb;
+}
+
+.leaderboard-rank {
+  width: 30px;
+  text-align: center;
+  font-size: 1.2rem;
+}
+
+.leaderboard-avatar {
+  width: 35px;
+  height: 35px;
+  background: #111827;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 1.3rem;
+}
+
+body.light-theme .leaderboard-avatar {
+  background: #d1d5db;
+}
+
+.leaderboard-text {
+  flex: 1;
+}
+
+.leaderboard-meta {
+  font-size: 0.75rem;
+  opacity: 0.8;
+  margin-top: 2px;
+}
+
+/* Medals */
+.rank-1 {
+  border: 1px solid #fbbf24;
+  box-shadow: 0 0 12px rgba(251, 191, 36, 0.4);
+}
+.rank-2 {
+  border: 1px solid #eeeeee;
+  box-shadow: 0 0 10px rgba(238, 238, 238, 0.4);
+}
+.rank-3 {
+  border: 1px solid #a3a3a3;
+  box-shadow: 0 0 8px rgba(163, 163, 163, 0.4);
+}
+
+@keyframes slideUp {
+  from {
+    opacity: 0;
+    transform: translateY(6px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+/* ---------------------------------------------------
+   UTILITY
+-----------------------------------------------------*/
+.hidden {
+  display: none;
+}
+/* Hide HUD only on setup screen */
+.setup-hidden {
+  display: none;
+}
+
+
+/* Center only the home section content nicely */
+#home-section {
+  margin-top: 40px;
+}
+
+#home-section button {
+  margin-top: 8px;
+}
+
+/* Improve text visibility in light mode */
+body.light-theme h1 {
+  color: #111827;
+}
+
+body.light-theme .subtitle {
+  color: #374151;
+}
+
+body.light-theme .subtitle.small {
+  color: #4b5563;
+}
+
+body.light-theme #home-section button {
+  color: white;
+}
+
+/* Hide HUD on setup page */
+#hud.setup-hidden {
+  display: none;
+}

@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Ayush Quiz App</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <div class="container">
+      <!-- 🌗 THEME TOGGLE -->
+      <button
+        id="theme-toggle"
+        class="theme-toggle"
+        aria-label="Toggle dark/light mode"
+      >
+        🌙
+      </button>
+
+      <!-- 🏠 HOME / WELCOME SECTION -->
+      <div id="home-section">
+        <h1>Quiz Hub</h1>
+        <p class="subtitle">
+          Welcome! Practice HTML, CSS, JavaScript, Core Java, OOP, DSA, GK, Web
+          and more.
+        </p>
+        <p class="subtitle small">
+          Your scores, profiles and leaderboard are saved on this device.
+        </p>
+
+        <button id="guest-play-btn">Start as Guest</button>
+        <button id="go-to-login-btn">Login & Play</button>
+        <button id="view-leaderboard-btn">Leaderboard</button>
+
+      </div>
+
+      <!-- 👤 LOGIN SECTION -->
+      <div id="login-section" class="hidden">
+        <h1>Login</h1>
+        <p class="subtitle small">
+          Create a new profile or log in with your PIN.
+        </p>
+
+        <label class="label" for="username-input">Name</label>
+        <input
+          type="text"
+          id="username-input"
+          placeholder="Your name..."
+        />
+
+        <label class="label" for="pin-input">4-digit PIN</label>
+        <input
+          type="password"
+          id="pin-input"
+          maxlength="4"
+          inputmode="numeric"
+          placeholder="••••"
+        />
+
+        <p class="label">Choose an avatar (for new users):</p>
+        <div id="avatar-options" class="avatar-options">
+          <button
+            type="button"
+            class="avatar-option"
+            data-avatar="👩‍💻"
+          >
+            👩‍💻
+          </button>
+          <button
+            type="button"
+            class="avatar-option"
+            data-avatar="🧑‍💻"
+          >
+            🧑‍💻
+          </button>
+          <button
+            type="button"
+            class="avatar-option"
+            data-avatar="🧠"
+          >
+            🧠
+          </button>
+          <button
+            type="button"
+            class="avatar-option"
+            data-avatar="🚀"
+          >
+            🚀
+          </button>
+          <button
+            type="button"
+            class="avatar-option"
+            data-avatar="🐱"
+          >
+            🐱
+          </button>
+          <button
+            type="button"
+            class="avatar-option"
+            data-avatar="🐼"
+          >
+            🐼
+          </button>
+        </div>
+
+        <button id="login-btn">Continue</button>
+        <button id="login-back-btn" class="secondary-btn">Back</button>
+      </div>
+
+      <!-- 🧠 QUIZ SECTION -->
+      <div id="quiz-section" class="hidden">
+        <h1>Quiz Hub</h1>
+
+        <!-- START SECTION (category + difficulty + start button) -->
+        <div id="setup-container">
+          <label for="category-select" class="label">Select Category:</label>
+          <select id="category-select">
+            <option value="All">All</option>
+            <option value="HTML">HTML</option>
+            <option value="CSS">CSS</option>
+            <option value="JavaScript">JavaScript</option>
+            <option value="GK">GK</option>
+            <option value="Web">Web</option>
+            <option value="CoreJava">Core Java</option>
+            <option value="OOP">OOP</option>
+            <option value="DSA">DSA</option>
+          </select>
+
+          <label for="difficulty-select" class="label"
+            >Select Difficulty:</label
+          >
+          <select id="difficulty-select">
+            <option value="All">All</option>
+            <option value="Easy">Easy</option>
+            <option value="Medium">Medium</option>
+            <option value="Hard">Hard</option>
+          </select>
+
+          <button id="start-btn">Start Quiz</button>
+        </div>
+
+        <!-- HUD -->
+        <div id="hud" class="hidden">
+          <div class="hud-left">
+            <span id="question-counter">Question 1 / 10</span>
+            <div class="progress-bar">
+              <div id="progress-fill"></div>
+            </div>
+          </div>
+          <div class="hud-right">
+            <span class="timer-label">
+              Time: <span id="timer">15</span>s
+            </span>
+            <span class="highscore-label">
+              High Score: <span id="high-score">0</span>
+            </span>
+          </div>
+        </div>
+
+        <!-- QUIZ + RESULT -->
+        <div id="quiz-container">
+          <div id="question-container" class="hidden">
+            <h2 id="question-text"></h2>
+            <ul id="choices-list"></ul>
+            <button id="next-btn" class="hidden">Next Question</button>
+          </div>
+
+          <div id="result-container" class="hidden">
+            <h2>Your Score:</h2>
+            <p id="score"></p>
+            <p id="best-score-text"></p>
+
+            <div id="share-container" class="share-container">
+              <p class="share-title">Share your score:</p>
+              <div class="share-buttons">
+                <button id="share-whatsapp" class="share-btn">
+                  WhatsApp
+                </button>
+                <button id="share-linkedin" class="share-btn">
+                  LinkedIn
+                </button>
+                <button id="share-copy" class="share-btn">
+                  Copy Link
+                </button>
+              </div>
+            </div>
+
+            <button id="restart-btn">Restart Quiz</button>
+          </div>
+        </div>
+      </div>
+
+      <!-- 🏆 LEADERBOARD SECTION -->
+      <div id="leaderboard-section" class="hidden">
+        <h1>Leaderboard</h1>
+
+        <label class="label" for="leaderboard-category-select"
+          >Select Category:</label
+        >
+        <select id="leaderboard-category-select">
+          <option value="All">All Categories</option>
+          <option value="HTML">HTML</option>
+          <option value="CSS">CSS</option>
+          <option value="JavaScript">JavaScript</option>
+          <option value="GK">GK</option>
+          <option value="Web">Web</option>
+          <option value="CoreJava">Core Java</option>
+          <option value="OOP">OOP</option>
+          <option value="DSA">DSA</option>
+        </select>
+
+        <ul id="leaderboard-list"></ul>
+
+        <button id="leaderboard-back-btn">Back</button>
+      </div>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>

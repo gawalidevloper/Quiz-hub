@@ -1,0 +1,1876 @@
+{
+  "questions": [
+    {
+      "category": "HTML",
+      "difficulty": "Easy",
+      "question": "What does HTML stand for?",
+      "choices": [
+        "Hyper Text Markup Language",
+        "Home Tool Markup Language",
+        "Hyperlinks and Text Markup Language",
+        "Hyper Transfer Markup Language"
+      ],
+      "answer": "Hyper Text Markup Language"
+    },
+    {
+  "category": "HTML",
+  "difficulty": "Easy",
+  "question": "Which element is used to display a numbered list?",
+  "choices": ["<ul>", "<ol>", "<li>", "<list>"],
+  "answer": "<ol>"
+},
+{
+  "category": "HTML",
+  "difficulty": "Easy",
+  "question": "Which HTML tag is used for creating a checkbox?",
+  "choices": ["<input type='check'>", "<checkbox>", "<input type='checkbox'>", "<tick>"],
+  "answer": "<input type='checkbox'>"
+},
+{
+  "category": "HTML",
+  "difficulty": "Easy",
+  "question": "Which tag is used to insert a horizontal line?",
+  "choices": ["<line>", "<hr>", "<border>", "<break>"],
+  "answer": "<hr>"
+},
+    {
+      "category": "HTML",
+      "difficulty": "Easy",
+      "question": "Which HTML tag is used to define the largest heading?",
+      "choices": ["<h6>", "<heading>", "<h1>", "<head>"],
+      "answer": "<h1>"
+    },
+    {
+      "category": "HTML",
+      "difficulty": "Easy",
+      "question": "Which HTML tag is used to insert a line break?",
+      "choices": ["<lb>", "<break>", "<br>", "<line>"],
+      "answer": "<br>"
+    },
+    {
+      "category": "HTML",
+      "difficulty": "Easy",
+      "question": "Which is the correct HTML5 doctype?",
+      "choices": [
+        "<!DOCTYPE html>",
+        "<!DOCTYPE HTML5>",
+        "<DOCTYPE html>",
+        "<!DOCTYPE html5>"
+      ],
+      "answer": "<!DOCTYPE html>"
+    },
+    {
+      "category": "HTML",
+      "difficulty": "Medium",
+      "question": "Which tag is used to create an ordered list?",
+      "choices": ["<ol>", "<ul>", "<li>", "<list>"],
+      "answer": "<ol>"
+    },
+    {
+      "category": "HTML",
+      "difficulty": "Medium",
+      "question": "Which attribute is used to specify the image file in an <img> tag?",
+      "choices": ["href", "src", "link", "file"],
+      "answer": "src"
+    },
+    {
+      "category": "HTML",
+      "difficulty": "Medium",
+      "question": "Which tag is used to define a table row?",
+      "choices": ["<td>", "<tr>", "<th>", "<row>"],
+      "answer": "<tr>"
+    },
+    {
+  "category": "HTML",
+  "difficulty": "Medium",
+  "question": "Which HTML tag is used to define a label for a form input?",
+  "choices": ["<caption>", "<label>", "<tag>", "<info>"],
+  "answer": "<label>"
+},
+{
+  "category": "HTML",
+  "difficulty": "Medium",
+  "question": "Which element is used to group option items inside a dropdown list?",
+  "choices": ["<opt>", "<optgroup>", "<group>", "<select-group>"],
+  "answer": "<optgroup>"
+},
+{
+  "category": "HTML",
+  "difficulty": "Medium",
+  "question": "Which tag is used to embed a video in HTML5?",
+  "choices": ["<media>", "<movie>", "<video>", "<vid>"],
+  "answer": "<video>"
+}
+,
+    {
+      "category": "HTML",
+      "difficulty": "Hard",
+      "question": "Which tag is used to define a paragraph?",
+      "choices": ["<para>", "<p>", "<paragraph>", "<pg>"],
+      "answer": "<p>"
+    },
+    {
+      "category": "HTML",
+      "difficulty": "Hard",
+      "question": "Which attribute opens a link in a new tab?",
+      "choices": [
+        "target='_self'",
+        "target='_new'",
+        "target='_blank'",
+        "open='new'"
+      ],
+      "answer": "target='_blank'"
+    },
+    {
+      "category": "HTML",
+      "difficulty": "Hard",
+      "question": "Which HTML element usually contains metadata like title and linked CSS?",
+      "choices": ["<head>", "<body>", "<meta>", "<header>"],
+      "answer": "<head>"
+    },
+    {
+  "category": "HTML",
+  "difficulty": "Hard",
+  "question": "Which attribute is used to specify that a script should execute after the page has finished parsing?",
+  "choices": ["async", "defer", "delay", "wait"],
+  "answer": "defer"
+},
+{
+  "category": "HTML",
+  "difficulty": "Hard",
+  "question": "Which HTML element defines the document's base URL for all relative links?",
+  "choices": ["<base>", "<url>", "<meta>", "<head>"],
+  "answer": "<base>"
+},
+{
+  "category": "HTML",
+  "difficulty": "Hard",
+  "question": "Which element is used to declare metadata for search engines and browsers?",
+  "choices": ["<meta>", "<info>", "<data>", "<description>"],
+  "answer": "<meta>"
+},
+{
+  "category": "HTML",
+  "difficulty": "Hard",
+  "question": "Which HTML tag provides an interactive area for selecting multiple values from a range?",
+  "choices": ["<picker>", "<range>", "<datalist>", "<selector>"],
+  "answer": "<datalist>"
+}
+,
+    {
+      "category": "HTML",
+      "difficulty": "Easy",
+      "question": "Which tag is used to create a hyperlink in HTML?",
+      "choices": ["<link>", "<a>", "<href>", "<url>"],
+      "answer": "<a>"
+    },
+    {
+      "category": "HTML",
+      "difficulty": "Easy",
+      "question": "Which attribute is used to provide alternative text for an image?",
+      "choices": ["title", "alt", "desc", "label"],
+      "answer": "alt"
+    },{
+  "category": "CSS",
+  "difficulty": "Easy",
+  "question": "Which CSS property changes the text size?",
+  "choices": ["font-size", "size", "text-height", "font-weight"],
+  "answer": "font-size"
+},
+{
+  "category": "CSS",
+  "difficulty": "Easy",
+  "question": "Which property sets the background image of an element?",
+  "choices": ["background-img", "image", "background-image", "img-bg"],
+  "answer": "background-image"
+},
+{
+  "category": "CSS",
+  "difficulty": "Easy",
+  "question": "Which property is used to underline text?",
+  "choices": ["text-decoration", "underline", "font-style", "line-style"],
+  "answer": "text-decoration"
+}
+,{
+  "category": "CSS",
+  "difficulty": "Medium",
+  "question": "Which property controls the spacing between lines of text?",
+  "choices": ["letter-spacing", "line-height", "spacing", "font-gap"],
+  "answer": "line-height"
+},
+{
+  "category": "CSS",
+  "difficulty": "Medium",
+  "question": "Which unit is relative to the width of the viewport?",
+  "choices": ["vw", "vh", "em", "%"],
+  "answer": "vw"
+},
+{
+  "category": "CSS",
+  "difficulty": "Medium",
+  "question": "Which property changes the cursor when hovering over an element?",
+  "choices": ["mouse", "cursor", "pointer-style", "hover"],
+  "answer": "cursor"
+}
+,
+    {
+      "category": "HTML",
+      "difficulty": "Easy",
+      "question": "Which tag is used to create a text input field in a form?",
+      "choices": ["<textarea>", "<input>", "<field>", "<text>"],
+      "answer": "<input>"
+    },
+    {
+      "category": "HTML",
+      "difficulty": "Medium",
+      "question": "Which tag is used to group block-level and inline elements together?",
+      "choices": ["<span>", "<group>", "<div>", "<section>"],
+      "answer": "<div>"
+    },
+    {
+      "category": "HTML",
+      "difficulty": "Medium",
+      "question": "Which HTML element is used to represent a navigation section?",
+      "choices": ["<nav>", "<section>", "<header>", "<aside>"],
+      "answer": "<nav>"
+    },
+    {
+      "category": "HTML",
+      "difficulty": "Medium",
+      "question": "Which attribute is used to uniquely identify an HTML element on a page?",
+      "choices": ["class", "name", "id", "for"],
+      "answer": "id"
+    },
+    {
+      "category": "HTML",
+      "difficulty": "Medium",
+      "question": "Which tag defines a table header cell?",
+      "choices": ["<thead>", "<th>", "<tr>", "<td>"],
+      "answer": "<th>"
+    },
+    {
+      "category": "HTML",
+      "difficulty": "Hard",
+      "question": "Which HTML element is best suited to mark up an independent piece of content that could be distributed or reused?",
+      "choices": ["<section>", "<article>", "<aside>", "<main>"],
+      "answer": "<article>"
+    },
+    {
+      "category": "HTML",
+      "difficulty": "Hard",
+      "question": "Which attribute is used to associate a label with a specific form control?",
+      "choices": ["for", "name", "ref", "bind"],
+      "answer": "for"
+    },
+    {
+      "category": "HTML",
+      "difficulty": "Hard",
+      "question": "Which element is used to provide a caption or title for a figure such as an image or chart?",
+      "choices": ["<figdesc>", "<caption>", "<figcaption>", "<legend>"],
+      "answer": "<figcaption>"
+    },
+    {
+      "category": "CSS",
+      "difficulty": "Easy",
+      "question": "What does CSS stand for?",
+      "choices": [
+        "Cascading Style Sheets",
+        "Creative Style System",
+        "Computer Style Sheet",
+        "Colorful Style Sheet"
+      ],
+      "answer": "Cascading Style Sheets"
+    },
+    {
+      "category": "CSS",
+      "difficulty": "Easy",
+      "question": "Which CSS property is used to change the text color?",
+      "choices": ["font-style", "background-color", "text-color", "color"],
+      "answer": "color"
+    },
+    {
+  "category": "CSS",
+  "difficulty": "Hard",
+  "question": "Which CSS function is used to apply a blur effect?",
+  "choices": ["blur()", "filter: blur()", "opacity()", "shadow()"],
+  "answer": "filter: blur()"
+},
+{
+  "category": "CSS",
+  "difficulty": "Hard",
+  "question": "Which selector selects elements that are the only child of their parent?",
+  "choices": [":only-child", ":unique", ":single", ":last"],
+  "answer": ":only-child"
+},
+{
+  "category": "CSS",
+  "difficulty": "Hard",
+  "question": "Which property creates a grid with equal-width columns?",
+  "choices": [
+    "grid-template-columns: repeat(auto, 1fr)",
+    "grid-template-columns: auto-fit",
+    "grid-columns: equal",
+    "grid-auto: same"
+  ],
+  "answer": "grid-template-columns: repeat(auto, 1fr)"
+},
+{
+  "category": "CSS",
+  "difficulty": "Hard",
+  "question": "Which rule allows you to apply styles depending on screen size?",
+  "choices": ["@responsive", "@media", "@device", "@screen"],
+  "answer": "@media"
+}
+,
+    {
+      "category": "CSS",
+      "difficulty": "Easy",
+      "question": "Which property is used to change the background color?",
+      "choices": ["background", "bgcolor", "background-color", "color"],
+      "answer": "background-color"
+    },
+    {
+      "category": "CSS",
+      "difficulty": "Easy",
+      "question": "Which is the correct way to apply inline CSS?",
+      "choices": [
+        "<p style='color:red;'>",
+        "<p css='color:red;'>",
+        "<p styles='color:red;'>",
+        "<p inline='color:red;'>"
+      ],
+      "answer": "<p style='color:red;'>"
+    },
+    {
+      "category": "CSS",
+      "difficulty": "Medium",
+      "question": "Which selector targets an element with id='main'?",
+      "choices": ["main", ".main", "#main", "*main"],
+      "answer": "#main"
+    },
+    {
+      "category": "CSS",
+      "difficulty": "Medium",
+      "question": "Which selector targets elements with class='btn'?",
+      "choices": [".btn", "#btn", "btn", "*btn"],
+      "answer": ".btn"
+    },
+    {
+      "category": "CSS",
+      "difficulty": "Medium",
+      "question": "Which CSS property controls the outer spacing around an element?",
+      "choices": ["padding", "margin", "border", "gap"],
+      "answer": "margin"
+    },
+    {
+      "category": "CSS",
+      "difficulty": "Hard",
+      "question": "Which CSS property controls the spacing inside an element's border?",
+      "choices": ["margin", "padding", "border-radius", "line-height"],
+      "answer": "padding"
+    },
+    {
+      "category": "CSS",
+      "difficulty": "Hard",
+      "question": "Which property is used to make text bold?",
+      "choices": ["font-weight", "font-style", "text-decoration", "font-bold"],
+      "answer": "font-weight"
+    },
+    {
+      "category": "CSS",
+      "difficulty": "Hard",
+      "question": "Which value of display is used to create a flexbox container?",
+      "choices": ["block", "inline", "flex", "grid"],
+      "answer": "flex"
+    },
+    {
+    "category": "CSS",
+    "difficulty": "Easy",
+    "question": "Which property is used to change the font of text?",
+    "choices": ["font-family", "font-type", "font", "text-font"],
+    "answer": "font-family"
+  },
+  {
+    "category": "CSS",
+    "difficulty": "Easy",
+    "question": "Which property is used to center text horizontally inside an element?",
+    "choices": ["text-style", "text-align", "align-text", "justify"],
+    "answer": "text-align"
+  },
+  {
+    "category": "CSS",
+    "difficulty": "Easy",
+    "question": "Which value of position puts an element relative to the browser window?",
+    "choices": ["relative", "absolute", "fixed", "static"],
+    "answer": "fixed"
+  },
+  {
+    "category": "CSS",
+    "difficulty": "Medium",
+    "question": "Which property controls the roundness of the element’s corners?",
+    "choices": ["border-width", "border-radius", "corner-radius", "border-style"],
+    "answer": "border-radius"
+  },
+  {
+    "category": "CSS",
+    "difficulty": "Medium",
+    "question": "Which property is used to control the stacking order of positioned elements?",
+    "choices": ["order", "z-index", "stack", "layer"],
+    "answer": "z-index"
+  },
+  {
+    "category": "CSS",
+    "difficulty": "Medium",
+    "question": "Which display value makes an element respect width/height but stay on its line?",
+    "choices": ["inline", "block", "inline-block", "flex"],
+    "answer": "inline-block"
+  },
+  {
+    "category": "CSS",
+    "difficulty": "Medium",
+    "question": "Which flexbox property controls how space is distributed along the main axis?",
+    "choices": ["align-items", "justify-content", "flex-wrap", "flex-basis"],
+    "answer": "justify-content"
+  },
+  {
+    "category": "CSS",
+    "difficulty": "Hard",
+    "question": "Which selector targets every <p> element that is a direct child of a <div>?",
+    "choices": ["div p", "div > p", "div + p", "div ~ p"],
+    "answer": "div > p"
+  },
+  {
+    "category": "CSS",
+    "difficulty": "Hard",
+    "question": "Which of the following is a valid CSS variable declaration?",
+    "choices": [
+      "color-main: #fff;",
+      "--color-main: #fff;",
+      "var-color-main: #fff;",
+      "$color-main: #fff;"
+    ],
+    "answer": "--color-main: #fff;"
+  },
+  {
+    "category": "CSS",
+    "difficulty": "Hard",
+    "question": "Which function is used to apply a 2D rotation to an element?",
+    "choices": ["rotate()", "transform-rotate()", "matrix()", "skew()"],
+    "answer": "rotate()"
+  },
+    {
+      "category": "JavaScript",
+      "difficulty": "Easy",
+      "question": "Which keyword declares a block-scoped variable in JavaScript?",
+      "choices": ["var", "block", "let", "scope"],
+      "answer": "let"
+    },
+    {
+  "category": "JavaScript",
+  "difficulty": "Easy",
+  "question": "Which operator is used to concatenate strings?",
+  "choices": ["+", "&", "concat", "join"],
+  "answer": "+"
+},
+{
+  "category": "JavaScript",
+  "difficulty": "Easy",
+  "question": "Which method displays an alert box?",
+  "choices": ["msg()", "alert()", "popup()", "show()"],
+  "answer": "alert()"
+},
+{
+  "category": "JavaScript",
+  "difficulty": "Easy",
+  "question": "Which keyword stops a loop early?",
+  "choices": ["exit", "stop", "break", "halt"],
+  "answer": "break"
+}
+,
+    {
+      "category": "JavaScript",
+      "difficulty": "Easy",
+      "question": "Which operator is used for strict equality comparison in JavaScript?",
+      "choices": ["==", "=", "===", "!=="],
+      "answer": "==="
+    },
+    {
+      "category": "JavaScript",
+      "difficulty": "Easy",
+      "question": "How do you write a single-line comment in JavaScript?",
+      "choices": ["<!-- comment -->", "/* comment */", "# comment", "// comment"],
+      "answer": "// comment"
+    },
+    {
+      "category": "JavaScript",
+      "difficulty": "Easy",
+      "question": "Which method is used to print a message to the browser console?",
+      "choices": ["print()", "console.write()", "console.log()", "log()"],
+      "answer": "console.log()"
+    },
+    {
+      "category": "JavaScript",
+      "difficulty": "Medium",
+      "question": "What is the data type of 'Hello' in JavaScript?",
+      "choices": ["char", "string", "text", "word"],
+      "answer": "string"
+    },
+    {
+      "category": "JavaScript",
+      "difficulty": "Medium",
+      "question": "Which of the following is NOT a primitive data type in JavaScript?",
+      "choices": ["number", "string", "object", "boolean"],
+      "answer": "object"
+    },
+    {
+  "category": "JavaScript",
+  "difficulty": "Medium",
+  "question": "Which object method converts a number to a string?",
+  "choices": ["toNumber()", "number()", "toString()", "value()"],
+  "answer": "toString()"
+},
+{
+  "category": "JavaScript",
+  "difficulty": "Medium",
+  "question": "Which built-in method removes the last element from an array?",
+  "choices": ["push()", "pop()", "shift()", "slice()"],
+  "answer": "pop()"
+},
+{
+  "category": "JavaScript",
+  "difficulty": "Medium",
+  "question": "What will typeof NaN return?",
+  "choices": ["number", "NaN", "undefined", "object"],
+  "answer": "number"
+}
+,
+{
+  "category": "JavaScript",
+  "difficulty": "Hard",
+  "question": "Which keyword is used to create a private class field?",
+  "choices": ["_", "#", "private", "$"],
+  "answer": "#"
+},
+{
+  "category": "JavaScript",
+  "difficulty": "Hard",
+  "question": "Which method schedules a function to run after a specified delay?",
+  "choices": ["delay()", "setTimeout()", "setInterval()", "wait()"],
+  "answer": "setTimeout()"
+},
+{
+  "category": "JavaScript",
+  "difficulty": "Hard",
+  "question": "What is the output of: Boolean('0')?",
+  "choices": ["false", "true", "undefined", "0"],
+  "answer": "true"
+},
+{
+  "category": "JavaScript",
+  "difficulty": "Hard",
+  "question": "Which statement correctly checks if a variable is an array?",
+  "choices": [
+    "typeof arr === 'array'",
+    "arr instanceof array",
+    "Array.isArray(arr)",
+    "arr.isArray()"
+  ],
+  "answer": "Array.isArray(arr)"
+}
+,
+    {
+      "category": "JavaScript",
+      "difficulty": "Medium",
+      "question": "Which syntax correctly creates an array in JavaScript?",
+      "choices": [
+        "let arr = (1, 2, 3);",
+        "let arr = [1, 2, 3];",
+        "let arr = {1, 2, 3};",
+        "array arr = [1, 2, 3];"
+      ],
+      "answer": "let arr = [1, 2, 3];"
+    },
+    {
+      "category": "JavaScript",
+      "difficulty": "Hard",
+      "question": "Which array method adds an element to the end of an array?",
+      "choices": ["push()", "pop()", "shift()", "unshift()"],
+      "answer": "push()"
+    },
+    {
+      "category": "JavaScript",
+      "difficulty": "Hard",
+      "question": "Which loop runs a block of code as long as a condition is true?",
+      "choices": ["for", "while", "do", "repeat"],
+      "answer": "while"
+    },
+    {
+      "category": "JavaScript",
+      "difficulty": "Hard",
+      "question": "Which DOM event is fired when a button is clicked?",
+      "choices": ["submit", "change", "click", "hover"],
+      "answer": "click"
+    },
+      {
+  "category": "JavaScript",
+  "difficulty": "Easy",
+  "question": "Which keyword is used to declare a constant in JavaScript?",
+  "choices": ["var", "let", "const", "static"],
+  "answer": "const"
+},
+{
+  "category": "JavaScript",
+  "difficulty": "Easy",
+  "question": "What is the result of '2' + 3 in JavaScript?",
+  "choices": ["5", "23", "NaN", "undefined"],
+  "answer": "23"
+},
+{
+  "category": "JavaScript",
+  "difficulty": "Easy",
+  "question": "Which symbol is used to terminate a statement in JavaScript (recommended)?",
+  "choices": [".", ",", ";", ":"],
+  "answer": ";"
+},
+{
+  "category": "JavaScript",
+  "difficulty": "Medium",
+  "question": "Which method converts a JSON string into a JavaScript object?",
+  "choices": ["JSON.convert()", "JSON.parse()", "JSON.stringify()", "JSON.toObject()"],
+  "answer": "JSON.parse()"
+},
+{
+  "category": "JavaScript",
+  "difficulty": "Medium",
+  "question": "Which keyword refers to the current object in a method?",
+  "choices": ["this", "self", "that", "owner"],
+  "answer": "this"
+},
+{
+  "category": "JavaScript",
+  "difficulty": "Medium",
+  "question": "Which array method creates a new array with all elements that pass a test?",
+  "choices": ["map()", "forEach()", "filter()", "reduce()"],
+  "answer": "filter()"
+},
+{
+  "category": "JavaScript",
+  "difficulty": "Medium",
+  "question": "Which statement is used to handle exceptions in JavaScript?",
+  "choices": ["try...except", "try...catch", "catch...throw", "handle...catch"],
+  "answer": "try...catch"
+},
+{
+  "category": "JavaScript",
+  "difficulty": "Hard",
+  "question": "What is the output of typeof null in JavaScript?",
+  "choices": ["'null'", "'object'", "'undefined'", "'number'"],
+  "answer": "'object'"
+},
+{
+  "category": "JavaScript",
+  "difficulty": "Hard",
+  "question": "Which method is used to attach a handler for a specific event to an element?",
+  "choices": ["addEvent()", "attachEvent()", "addEventListener()", "onEvent()"],
+  "answer": "addEventListener()"
+},
+{
+  "category": "JavaScript",
+  "difficulty": "Hard",
+  "question": "Which feature of JavaScript allows a function to access variables from its outer scope even after that scope has returned?",
+  "choices": ["Hoisting", "Closure", "Currying", "Memoization"],
+  "answer": "Closure"
+},
+    {
+      "category": "GK",
+      "difficulty": "Easy",
+      "question": "Which company originally created JavaScript?",
+      "choices": ["Microsoft", "Google", "Netscape", "Oracle"],
+      "answer": "Netscape"
+    },
+    {
+      "category": "GK",
+      "difficulty": "Easy",
+      "question": "In which year was JavaScript first released?",
+      "choices": ["1990", "1995", "2000", "2005"],
+      "answer": "1995"
+    },
+    {
+      "category": "GK",
+      "difficulty": "Easy",
+      "question": "Which company maintains the Chrome browser?",
+      "choices": ["Mozilla", "Apple", "Google", "Microsoft"],
+      "answer": "Google"
+    },
+    {
+  "category": "GK",
+  "difficulty": "Easy",
+  "question": "Which company produces the iPhone?",
+  "choices": ["Google", "Samsung", "Apple", "Nokia"],
+  "answer": "Apple"
+},
+{
+  "category": "GK",
+  "difficulty": "Easy",
+  "question": "What does USB stand for?",
+  "choices": ["Universal Serial Bus", "Universal System Box", "Unit Serial Base", "Unique Storage Bus"],
+  "answer": "Universal Serial Bus"
+},
+{
+  "category": "GK",
+  "difficulty": "Easy",
+  "question": "Which company owns YouTube?",
+  "choices": ["Meta", "Google", "X", "Amazon"],
+  "answer": "Google"
+},
+{
+  "category": "GK",
+  "difficulty": "Easy",
+  "question": "Which day is celebrated as World Environment Day?",
+  "choices": ["June 5", "July 7", "April 22", "March 15"],
+  "answer": "June 5"
+}
+,
+{
+  "category": "GK",
+  "difficulty": "Medium",
+  "question": "Who developed the Python programming language?",
+  "choices": ["James Gosling", "Brendan Eich", "Guido van Rossum", "Dennis Ritchie"],
+  "answer": "Guido van Rossum"
+},
+{
+  "category": "GK",
+  "difficulty": "Medium",
+  "question": "Which country invented paper?",
+  "choices": ["India", "China", "Egypt", "Japan"],
+  "answer": "China"
+},
+{
+  "category": "GK",
+  "difficulty": "Medium",
+  "question": "Which gas is used most often in balloons?",
+  "choices": ["Nitrogen", "Hydrogen", "Helium", "Oxygen"],
+  "answer": "Helium"
+}
+,
+    {
+      "category": "GK",
+      "difficulty": "Medium",
+      "question": "Who created the Linux kernel?",
+      "choices": [
+        "Bill Gates",
+        "Linus Torvalds",
+        "Richard Stallman",
+        "Steve Jobs"
+      ],
+      "answer": "Linus Torvalds"
+    },
+    {
+      "category": "GK",
+      "difficulty": "Medium",
+      "question": "Which tool is a popular distributed version control system?",
+      "choices": ["SVN", "Git", "Mercurial", "CVS"],
+      "answer": "Git"
+    },
+    {
+      "category": "GK",
+      "difficulty": "Medium",
+      "question": "What does CPU stand for?",
+      "choices": [
+        "Central Processing Unit",
+        "Central Program Unit",
+        "Computer Processing Unit",
+        "Core Processing Unit"
+      ],
+      "answer": "Central Processing Unit"
+    },
+    {
+      "category": "GK",
+      "difficulty": "Hard",
+      "question": "Which of these file extensions is most commonly used for images?",
+      "choices": [".mp3", ".jpg", ".txt", ".pdf"],
+      "answer": ".jpg"
+    },
+    {
+      "category": "GK",
+      "difficulty": "Hard",
+      "question": "Which programming language is mainly used for iOS app development?",
+      "choices": ["Swift", "Kotlin", "C#", "PHP"],
+      "answer": "Swift"
+    },
+    {
+  "category": "GK",
+  "difficulty": "Hard",
+  "question": "Which is the smallest bone in the human body?",
+  "choices": ["Stapes", "Femur", "Ulna", "Tibia"],
+  "answer": "Stapes"
+},
+{
+  "category": "GK",
+  "difficulty": "Hard",
+  "question": "Which country launched the first artificial satellite?",
+  "choices": ["USA", "China", "Russia", "Japan"],
+  "answer": "Russia"
+},
+{
+  "category": "GK",
+  "difficulty": "Hard",
+  "question": "Which element has the highest melting point?",
+  "choices": ["Carbon", "Iron", "Tungsten", "Uranium"],
+  "answer": "Tungsten"
+},
+{
+  "category": "GK",
+  "difficulty": "Hard",
+  "question": "Which is the largest desert in the world?",
+  "choices": ["Sahara", "Gobi", "Kalahari", "Arctic"],
+  "answer": "Sahara"
+}
+,
+    {
+      "category": "GK",
+      "difficulty": "Hard",
+      "question": "What does HTTP stand for?",
+      "choices": [
+        "Hyper Text Transfer Protocol",
+        "Hyperlink Transfer Text Protocol",
+        "High Text Transfer Protocol",
+        "Hyper Tool Transfer Protocol"
+      ],
+      "answer": "Hyper Text Transfer Protocol"
+    },
+    {
+  "category": "GK",
+  "difficulty": "Easy",
+  "question": "Which company develops the Windows operating system?",
+  "choices": ["Apple", "Google", "Microsoft", "IBM"],
+  "answer": "Microsoft"
+},
+{
+  "category": "GK",
+  "difficulty": "Easy",
+  "question": "What does RAM stand for?",
+  "choices": [
+    "Random Access Memory",
+    "Read Access Memory",
+    "Rapid Access Module",
+    "Runtime Access Memory"
+  ],
+  "answer": "Random Access Memory"
+},
+{
+  "category": "GK",
+  "difficulty": "Easy",
+  "question": "Which device is primarily used for pointing and clicking on a computer?",
+  "choices": ["Keyboard", "Mouse", "Monitor", "Printer"],
+  "answer": "Mouse"
+},
+{
+  "category": "GK",
+  "difficulty": "Medium",
+  "question": "Which organization created the World Wide Web standards (HTML, CSS)?",
+  "choices": ["IEEE", "W3C", "IETF", "ISO"],
+  "answer": "W3C"
+},
+{
+  "category": "GK",
+  "difficulty": "Medium",
+  "question": "Which company created the Android operating system?",
+  "choices": ["Apple", "Google", "Android Inc.", "Samsung"],
+  "answer": "Android Inc."
+},
+{
+  "category": "GK",
+  "difficulty": "Medium",
+  "question": "What does 'open source' usually mean?",
+  "choices": [
+    "Free to download only",
+    "Source code is publicly available",
+    "Software runs in the cloud",
+    "Software is trial version"
+  ],
+  "answer": "Source code is publicly available"
+},
+{
+  "category": "GK",
+  "difficulty": "Medium",
+  "question": "Which of these is a NoSQL database?",
+  "choices": ["MySQL", "PostgreSQL", "MongoDB", "SQLite"],
+  "answer": "MongoDB"
+},
+{
+  "category": "GK",
+  "difficulty": "Hard",
+  "question": "What does GPU stand for?",
+  "choices": [
+    "Graphics Processing Unit",
+    "General Processing Unit",
+    "Graphical Performance Utility",
+    "Global Processing Unit"
+  ],
+  "answer": "Graphics Processing Unit"
+},
+{
+  "category": "GK",
+  "difficulty": "Hard",
+  "question": "Which cryptographic protocol secures communication over HTTPS?",
+  "choices": ["SSL/TLS", "FTP", "SSH", "SCP"],
+  "answer": "SSL/TLS"
+},
+{
+  "category": "GK",
+  "difficulty": "Hard",
+  "question": "Which of these licenses is commonly used for open-source software?",
+  "choices": ["EULA", "GPL", "NDA", "Proprietary"],
+  "answer": "GPL"
+},
+    {
+      "category": "Web",
+      "difficulty": "Easy",
+      "question": "Which protocol is mainly used for loading web pages?",
+      "choices": ["FTP", "SMTP", "HTTP/HTTPS", "SSH"],
+      "answer": "HTTP/HTTPS"
+    },
+    {
+      "category": "Web",
+      "difficulty": "Easy",
+      "question": "Which HTTP status code means 'Not Found'?",
+      "choices": ["200", "301", "404", "500"],
+      "answer": "404"
+    },
+    {
+      "category": "Web",
+      "difficulty": "Easy",
+      "question": "Which part of the browser is responsible for rendering HTML and CSS?",
+      "choices": [
+        "JavaScript engine",
+        "Rendering engine",
+        "Network layer",
+        "Database"
+      ],
+      "answer": "Rendering engine"
+    },
+    {
+      "category": "Web",
+      "difficulty": "Medium",
+      "question": "What is responsive web design?",
+      "choices": [
+        "Websites that respond to user emails",
+        "Websites that load very fast",
+        "Websites that adapt to different screen sizes",
+        "Websites that use only HTML"
+      ],
+      "answer": "Websites that adapt to different screen sizes"
+    },
+    {
+      "category": "Web",
+      "difficulty": "Medium",
+      "question": "Which tool in the browser is commonly used to inspect HTML and CSS?",
+      "choices": [
+        "Download manager",
+        "Developer tools",
+        "Task manager",
+        "Console only"
+      ],
+      "answer": "Developer tools"
+    },
+    {
+      "category": "Web",
+      "difficulty": "Medium",
+      "question": "What is a CDN mainly used for?",
+      "choices": [
+        "Compiling source code",
+        "Storing user passwords",
+        "Delivering content from servers closer to users",
+        "Hosting databases"
+      ],
+      "answer": "Delivering content from servers closer to users"
+    },
+    {
+      "category": "Web",
+      "difficulty": "Hard",
+      "question": "Which HTML tag is used to link an external JavaScript file?",
+      "choices": ["<link>", "<script>", "<js>", "<code>"],
+      "answer": "<script>"
+    },
+    {
+      "category": "Web",
+      "difficulty": "Hard",
+      "question": "Which HTML tag is used to link an external CSS file?",
+      "choices": [
+        "<style>",
+        "<script>",
+        "<link rel='stylesheet' href='style.css'>",
+        "<css>"
+      ],
+      "answer": "<link rel='stylesheet' href='style.css'>"
+    },
+    {
+      "category": "Web",
+      "difficulty": "Hard",
+      "question": "Which storage option persists data even after the browser is closed?",
+      "choices": ["Session storage", "Local storage", "Cookies only", "Cache only"],
+      "answer": "Local storage"
+    },
+    {
+      "category": "Web",
+      "difficulty": "Hard",
+      "question": "Which term describes code that runs in the user's browser, not on the server?",
+      "choices": ["Backend", "Server-side", "Client-side", "Database layer"],
+      "answer": "Client-side"
+    },
+    {
+  "category": "Web",
+  "difficulty": "Easy",
+  "question": "Which protocol is primarily used to send emails?",
+  "choices": ["HTTP", "SMTP", "FTP", "SSH"],
+  "answer": "SMTP"
+},
+{
+  "category": "Web",
+  "difficulty": "Easy",
+  "question": "Which part of a URL usually contains the domain name?",
+  "choices": ["The path", "The query string", "The host", "The fragment"],
+  "answer": "The host"
+},
+{
+  "category": "Web",
+  "difficulty": "Easy",
+  "question": "Which of these is a popular web browser?",
+  "choices": ["VS Code", "Chrome", "Linux", "Docker"],
+  "answer": "Chrome"
+},
+{
+  "category": "Web",
+  "difficulty": "Medium",
+  "question": "What does CORS stand for in web development?",
+  "choices": [
+    "Cross-Origin Resource Sharing",
+    "Cross-Origin Request Service",
+    "Client-Origin Resource Sharing",
+    "Central-Origin Resource Service"
+  ],
+  "answer": "Cross-Origin Resource Sharing"
+},
+{
+  "category": "Web",
+  "difficulty": "Medium",
+  "question": "Which HTTP method is typically used to submit form data that changes server state?",
+  "choices": ["GET", "POST", "HEAD", "OPTIONS"],
+  "answer": "POST"
+},
+{
+  "category": "Web",
+  "difficulty": "Medium",
+  "question": "Which header is commonly used to send JSON data in an HTTP request?",
+  "choices": [
+    "Content-Type: text/html",
+    "Content-Type: application/json",
+    "Accept: text/plain",
+    "Accept-Encoding: gzip"
+  ],
+  "answer": "Content-Type: application/json"
+},
+{
+  "category": "Web",
+  "difficulty": "Medium",
+  "question": "What does SPA stand for in web development?",
+  "choices": [
+    "Single Page Application",
+    "Static Page Application",
+    "Secure Page Access",
+    "Simple Page Architecture"
+  ],
+  "answer": "Single Page Application"
+},
+{
+  "category": "Web",
+  "difficulty": "Hard",
+  "question": "Which HTTP status code indicates that the client must authenticate itself to get the requested response?",
+  "choices": ["401", "403", "301", "500"],
+  "answer": "401"
+},
+{
+  "category": "Web",
+  "difficulty": "Hard",
+  "question": "Which security vulnerability involves injecting malicious scripts into trusted websites?",
+  "choices": ["SQL Injection", "Cross-Site Scripting (XSS)", "CSRF", "Clickjacking"],
+  "answer": "Cross-Site Scripting (XSS)"
+},
+{
+  "category": "Web",
+  "difficulty": "Hard",
+  "question": "Which technique is used to reduce the number of HTTP requests by combining multiple files?",
+  "choices": ["Minification", "Bundling", "Caching", "Lazy loading"],
+  "answer": "Bundling"
+},
+{
+  "category": "Web",
+  "difficulty": "Easy",
+  "question": "Which tag is used to define a hyperlink in HTML?",
+  "choices": ["<link>", "<a>", "<href>", "<click>"],
+  "answer": "<a>"
+},
+{
+  "category": "Web",
+  "difficulty": "Easy",
+  "question": "Which protocol is used to transfer files over the internet?",
+  "choices": ["FTP", "SMTP", "SSH", "POP"],
+  "answer": "FTP"
+},
+{
+  "category": "Web",
+  "difficulty": "Easy",
+  "question": "Which HTTP status code represents a successful request?",
+  "choices": ["200", "301", "404", "500"],
+  "answer": "200"
+},
+{
+  "category": "Web",
+  "difficulty": "Easy",
+  "question": "Which part of a website defines its visual layout and styling?",
+  "choices": ["HTML", "CSS", "JavaScript", "JSON"],
+  "answer": "CSS"
+}
+,{
+  "category": "Web",
+  "difficulty": "Medium",
+  "question": "Which HTTP request method is typically used to update an existing resource?",
+  "choices": ["GET", "POST", "PUT", "DELETE"],
+  "answer": "PUT"
+},
+{
+  "category": "Web",
+  "difficulty": "Medium",
+  "question": "What does DNS stand for?",
+  "choices": ["Domain Name System", "Digital Naming System", "Domain Network Service", "Distributed Node Service"],
+  "answer": "Domain Name System"
+},
+{
+  "category": "Web",
+  "difficulty": "Medium",
+  "question": "Which tag is used to define a client-side script?",
+  "choices": ["<js>", "<script>", "<code>", "<runtime>"],
+  "answer": "<script>"
+}
+,{
+  "category": "Web",
+  "difficulty": "Hard",
+  "question": "Which HTTP header is used to protect against cross-site request forgery (CSRF)?",
+  "choices": ["Origin", "X-CSRF-Token", "Referrer", "Authorization"],
+  "answer": "X-CSRF-Token"
+},
+{
+  "category": "Web",
+  "difficulty": "Hard",
+  "question": "Which security attack exploits user trust by tricking them into clicking malicious links?",
+  "choices": ["XSS", "Clickjacking", "SQL Injection", "MITM"],
+  "answer": "Clickjacking"
+},
+{
+  "category": "Web",
+  "difficulty": "Hard",
+  "question": "Which protocol secures data using asymmetric encryption during TLS handshake?",
+  "choices": ["RSA", "AES", "SHA", "MD5"],
+  "answer": "RSA"
+}
+,{
+  "category": "CoreJava",
+  "difficulty": "Easy",
+  "question": "Which keyword is used to declare a class variable in Java?",
+  "choices": ["let", "var", "static", "global"],
+  "answer": "static"
+},
+{
+  "category": "CoreJava",
+  "difficulty": "Easy",
+  "question": "What is the default value of a boolean variable in Java?",
+  "choices": ["true", "false", "null", "0"],
+  "answer": "false"
+},
+{
+  "category": "CoreJava",
+  "difficulty": "Easy",
+  "question": "Which operator is used for string concatenation in Java?",
+  "choices": ["+", "&", "#", "*"],
+  "answer": "+"
+}
+,{
+  "category": "CoreJava",
+  "difficulty": "Medium",
+  "question": "Which method is called when an object is destroyed?",
+  "choices": ["dispose()", "destroy()", "finalize()", "stop()"],
+  "answer": "finalize()"
+},
+{
+  "category": "CoreJava",
+  "difficulty": "Medium",
+  "question": "Which of these is NOT a feature of Java?",
+  "choices": ["Platform independent", "Memory management", "Multiple inheritance using classes", "Object oriented"],
+  "answer": "Multiple inheritance using classes"
+},
+{
+  "category": "CoreJava",
+  "difficulty": "Medium",
+  "question": "Which operator is used to compare object references in Java?",
+  "choices": ["==", "equals()", "!=", "compare()"],
+  "answer": "=="
+}
+,{
+  "category": "CoreJava",
+  "difficulty": "Hard",
+  "question": "Which component is responsible for loading class files at runtime?",
+  "choices": ["Compiler", "ClassLoader", "JVM", "JIT"],
+  "answer": "ClassLoader"
+},
+{
+  "category": "CoreJava",
+  "difficulty": "Hard",
+  "question": "Which memory area stores metadata about classes and methods in JVM?",
+  "choices": ["Heap", "Stack", "Method Area", "Registers"],
+  "answer": "Method Area"
+},
+{
+  "category": "CoreJava",
+  "difficulty": "Hard",
+  "question": "Which keyword prevents a class from being inherited?",
+  "choices": ["static", "const", "final", "sealed"],
+  "answer": "final"
+},
+{
+  "category": "CoreJava",
+  "difficulty": "Hard",
+  "question": "Which exception occurs when trying to access an array index out of bounds?",
+  "choices": ["NullPointerException", "ArrayIndexOutOfBoundsException", "ClassCastException", "IllegalArgumentException"],
+  "answer": "ArrayIndexOutOfBoundsException"
+}
+,
+    {
+      "category": "CoreJava",
+      "difficulty": "Easy",
+      "question": "Which keyword is used to inherit a class in Java?",
+      "choices": ["implements", "extends", "inherits", "super"],
+      "answer": "extends"
+    },
+    {
+      "category": "CoreJava",
+      "difficulty": "Easy",
+      "question": "Which method is the entry point of a Java application?",
+      "choices": [
+        "public void main(String[] args)",
+        "public static void start(String[] args)",
+        "public static void main(String[] args)",
+        "main(String args)"
+      ],
+      "answer": "public static void main(String[] args)"
+    },
+    {
+      "category": "CoreJava",
+      "difficulty": "Easy",
+      "question": "Which of the following is NOT a primitive data type in Java?",
+      "choices": ["int", "double", "boolean", "String"],
+      "answer": "String"
+    },
+    {
+      "category": "CoreJava",
+      "difficulty": "Easy",
+      "question": "Which component actually runs the Java bytecode?",
+      "choices": ["JDK", "JVM", "JRE", "Compiler"],
+      "answer": "JVM"
+    },
+    {
+      "category": "CoreJava",
+      "difficulty": "Medium",
+      "question": "Which package is imported by default in every Java program?",
+      "choices": ["java.util", "java.io", "java.lang", "java.net"],
+      "answer": "java.lang"
+    },
+    {
+      "category": "CoreJava",
+      "difficulty": "Medium",
+      "question": "Which keyword is used to create a new object in Java?",
+      "choices": ["class", "new", "this", "super"],
+      "answer": "new"
+    },
+    {
+      "category": "CoreJava",
+      "difficulty": "Medium",
+      "question": "What is the default value of an int instance variable in Java?",
+      "choices": ["0", "1", "-1", "null"],
+      "answer": "0"
+    },
+    {
+      "category": "CoreJava",
+      "difficulty": "Hard",
+      "question": "Which of these is used to handle exceptions in Java?",
+      "choices": ["if-else", "try-catch", "for loop", "switch"],
+      "answer": "try-catch"
+    },
+    {
+      "category": "CoreJava",
+      "difficulty": "Hard",
+      "question": "Which collection class allows duplicate elements and maintains insertion order?",
+      "choices": ["HashSet", "TreeSet", "ArrayList", "HashMap"],
+      "answer": "ArrayList"
+    },
+    {
+      "category": "CoreJava",
+      "difficulty": "Hard",
+      "question": "Which keyword is used to prevent a variable from being modified?",
+      "choices": ["static", "final", "const", "immutable"],
+      "answer": "final"
+    },
+    {
+  "category": "CoreJava",
+  "difficulty": "Easy",
+  "question": "Which keyword is used to define a class in Java?",
+  "choices": ["class", "struct", "object", "define"],
+  "answer": "class"
+},
+{
+  "category": "CoreJava",
+  "difficulty": "Easy",
+  "question": "Which symbol is used to end a statement in Java?",
+  "choices": [":", ".", ";", ","],
+  "answer": ";"
+},
+{
+  "category": "CoreJava",
+  "difficulty": "Easy",
+  "question": "Which access modifier allows access only within the same class?",
+  "choices": ["public", "protected", "private", "default"],
+  "answer": "private"
+},
+{
+  "category": "CoreJava",
+  "difficulty": "Medium",
+  "question": "Which keyword is used to call the constructor of the parent class?",
+  "choices": ["this", "super", "base", "parent"],
+  "answer": "super"
+},
+{
+  "category": "CoreJava",
+  "difficulty": "Medium",
+  "question": "Which method is called automatically when an object is created?",
+  "choices": ["init()", "constructor", "main()", "start()"],
+  "answer": "constructor"
+},
+{
+  "category": "CoreJava",
+  "difficulty": "Medium",
+  "question": "Which wrapper class corresponds to the primitive type int?",
+  "choices": ["Integer", "Int", "Number", "Long"],
+  "answer": "Integer"
+},
+{
+  "category": "CoreJava",
+  "difficulty": "Medium",
+  "question": "Which interface is implemented to allow an object to be run in a thread?",
+  "choices": ["Runnable", "Serializable", "Cloneable", "Comparable"],
+  "answer": "Runnable"
+},
+{
+  "category": "CoreJava",
+  "difficulty": "Hard",
+  "question": "Which keyword is used to create an unchangeable (immutable) reference in Java?",
+  "choices": ["static", "final", "immutable", "const"],
+  "answer": "final"
+},
+{
+  "category": "CoreJava",
+  "difficulty": "Hard",
+  "question": "Which collection type does not allow duplicate keys but allows one null key?",
+  "choices": ["HashSet", "TreeMap", "HashMap", "ArrayList"],
+  "answer": "HashMap"
+},
+{
+  "category": "CoreJava",
+  "difficulty": "Hard",
+  "question": "Which block is always executed whether an exception is thrown or not?",
+  "choices": ["try", "catch", "finally", "throw"],
+  "answer": "finally"
+},
+    {
+      "category": "OOP",
+      "difficulty": "Easy",
+      "question": "Which OOP concept represents 'one interface, many implementations'?",
+      "choices": ["Encapsulation", "Inheritance", "Polymorphism", "Abstraction"],
+      "answer": "Polymorphism"
+    },
+    {
+      "category": "OOP",
+      "difficulty": "Easy",
+      "question": "Which OOP concept is about hiding internal details and showing only necessary features?",
+      "choices": ["Encapsulation", "Inheritance", "Abstraction", "Polymorphism"],
+      "answer": "Encapsulation"
+    },
+    {
+      "category": "OOP",
+      "difficulty": "Easy",
+      "question": "What is a class in OOP?",
+      "choices": [
+        "A runtime instance",
+        "A blueprint/template for objects",
+        "A built-in function",
+        "An error handler"
+      ],
+      "answer": "A blueprint/template for objects"
+    },
+    {
+      "category": "OOP",
+      "difficulty": "Easy",
+      "question": "Which relationship is represented by 'is-a' in OOP?",
+      "choices": ["Association", "Aggregation", "Composition", "Inheritance"],
+      "answer": "Inheritance"
+    },
+    {
+      "category": "OOP",
+      "difficulty": "Medium",
+      "question": "Which OOP principle is followed when data and methods are wrapped together in a single unit?",
+      "choices": ["Abstraction", "Polymorphism", "Encapsulation", "Inheritance"],
+      "answer": "Encapsulation"
+    },
+    {
+      "category": "OOP",
+      "difficulty": "Medium",
+      "question": "Which of these can NOT be instantiated directly?",
+      "choices": [
+        "Concrete class",
+        "Abstract class",
+        "Final class",
+        "Normal class"
+      ],
+      "answer": "Abstract class"
+    },
+    {
+      "category": "OOP",
+      "difficulty": "Medium",
+      "question": "What is an object in OOP?",
+      "choices": [
+        "A variable",
+        "A function",
+        "An instance of a class",
+        "A file"
+      ],
+      "answer": "An instance of a class"
+    },
+    {
+      "category": "OOP",
+      "difficulty": "Hard",
+      "question": "Which OOP concept allows a subclass to provide a specific implementation of a method already defined in its superclass?",
+      "choices": [
+        "Overloading",
+        "Overriding",
+        "Abstraction",
+        "Encapsulation"
+      ],
+      "answer": "Overriding"
+    },
+    {
+      "category": "OOP",
+      "difficulty": "Hard",
+      "question": "Which OOP feature helps to reuse code from an existing class?",
+      "choices": ["Abstraction", "Inheritance", "Encapsulation", "Polymorphism"],
+      "answer": "Inheritance"
+    },
+    {
+      "category": "OOP",
+      "difficulty": "Hard",
+      "question": "Interfaces in Java mainly support which OOP concept?",
+      "choices": [
+        "Encapsulation",
+        "Multiple inheritance of type",
+        "Polymorphism",
+        "Composition"
+      ],
+      "answer": "Multiple inheritance of type"
+    },
+    {
+  "category": "OOP",
+  "difficulty": "Easy",
+  "question": "Which OOP concept bundles data and methods into a single unit?",
+  "choices": ["Polymorphism", "Encapsulation", "Inheritance", "Abstraction"],
+  "answer": "Encapsulation"
+},
+{
+  "category": "OOP",
+  "difficulty": "Easy",
+  "question": "What is an instance of a class called?",
+  "choices": ["Method", "Object", "Module", "Package"],
+  "answer": "Object"
+},
+{
+  "category": "OOP",
+  "difficulty": "Easy",
+  "question": "Which OOP concept allows one class to acquire properties of another?",
+  "choices": ["Encapsulation", "Inheritance", "Abstraction", "Overloading"],
+  "answer": "Inheritance"
+},
+{
+  "category": "OOP",
+  "difficulty": "Medium",
+  "question": "What is method overloading?",
+  "choices": [
+    "Same method name with different parameter lists in the same class",
+    "Same method name in different classes",
+    "Replacing a superclass method in subclass",
+    "Hiding data fields"
+  ],
+  "answer": "Same method name with different parameter lists in the same class"
+},
+{
+  "category": "OOP",
+  "difficulty": "Medium",
+  "question": "What is method overriding?",
+  "choices": [
+    "Defining multiple methods with the same name and parameters",
+    "Providing a new implementation of a superclass method in subclass",
+    "Hiding variables in a subclass",
+    "Defining private methods"
+  ],
+  "answer": "Providing a new implementation of a superclass method in subclass"
+},
+{
+  "category": "OOP",
+  "difficulty": "Medium",
+  "question": "Which OOP concept focuses on showing only essential features and hiding the details?",
+  "choices": ["Encapsulation", "Inheritance", "Abstraction", "Polymorphism"],
+  "answer": "Abstraction"
+},
+{
+  "category": "OOP",
+  "difficulty": "Medium",
+  "question": "What do we call a class that cannot be instantiated directly?",
+  "choices": ["Final class", "Static class", "Abstract class", "Concrete class"],
+  "answer": "Abstract class"
+},
+{
+  "category": "OOP",
+  "difficulty": "Hard",
+  "question": "Which of the following best describes runtime polymorphism?",
+  "choices": [
+    "Method overloading",
+    "Method overriding resolved during execution",
+    "Static binding of methods",
+    "Using generic classes"
+  ],
+  "answer": "Method overriding resolved during execution"
+},
+{
+  "category": "OOP",
+  "difficulty": "Hard",
+  "question": "In Java, what can an interface contain by default (without modifiers) in modern versions?",
+  "choices": [
+    "Only abstract methods",
+    "Abstract methods and constants",
+    "Abstract, default, and static methods",
+    "Only fields and constructors"
+  ],
+  "answer": "Abstract, default, and static methods"
+},
+{
+  "category": "OOP",
+  "difficulty": "Hard",
+  "question": "Which relationship is modeled when an object is part of another object but can exist independently?",
+  "choices": ["Composition", "Aggregation", "Inheritance", "Association"],
+  "answer": "Aggregation"
+},
+{
+  "category": "OOP",
+  "difficulty": "Easy",
+  "question": "Which OOP concept allows creating multiple objects from a blueprint?",
+  "choices": ["Inheritance", "Class", "Object", "Polymorphism"],
+  "answer": "Class"
+},
+{
+  "category": "OOP",
+  "difficulty": "Easy",
+  "question": "What is the process of wrapping code and data together?",
+  "choices": ["Abstraction", "Encapsulation", "Inheritance", "Polymorphism"],
+  "answer": "Encapsulation"
+},
+{
+  "category": "OOP",
+  "difficulty": "Easy",
+  "question": "Which function inside a class is used to initialize objects?",
+  "choices": ["constructor", "initializer", "starter", "init"],
+  "answer": "constructor"
+}
+,{
+  "category": "OOP",
+  "difficulty": "Medium",
+  "question": "Which OOP principle states that a subclass should replace its parent without altering behavior?",
+  "choices": ["Liskov Substitution", "Abstraction", "Encapsulation", "Hierarchy Rule"],
+  "answer": "Liskov Substitution"
+},
+{
+  "category": "OOP",
+  "difficulty": "Medium",
+  "question": "What is dynamic method dispatch?",
+  "choices": [
+    "Calling a static method",
+    "Resolving overridden method at runtime",
+    "Passing objects as parameters",
+    "Creating multiple constructors"
+  ],
+  "answer": "Resolving overridden method at runtime"
+},
+{
+  "category": "OOP",
+  "difficulty": "Medium",
+  "question": "Which concept restricts access to certain class members?",
+  "choices": ["Abstraction", "Encapsulation", "Access Modifiers", "Polymorphism"],
+  "answer": "Access Modifiers"
+}
+,{
+  "category": "OOP",
+  "difficulty": "Hard",
+  "question": "Which design principle encourages creating small interfaces instead of large ones?",
+  "choices": ["ISP", "SRP", "LSP", "DIP"],
+  "answer": "ISP"
+},
+{
+  "category": "OOP",
+  "difficulty": "Hard",
+  "question": "Which pattern ensures a class has only one instance and provides a global access point?",
+  "choices": ["Factory", "Singleton", "Builder", "Prototype"],
+  "answer": "Singleton"
+},
+{
+  "category": "OOP",
+  "difficulty": "Hard",
+  "question": "Which relationship represents 'whole-part' where the whole owns the part completely?",
+  "choices": ["Aggregation", "Association", "Composition", "Inheritance"],
+  "answer": "Composition"
+},
+{
+  "category": "OOP",
+  "difficulty": "Hard",
+  "question": "Which OOP concept binds method call to method body at runtime?",
+  "choices": ["Static Binding", "Early Binding", "Dynamic Binding", "Method Hiding"],
+  "answer": "Dynamic Binding"
+}
+,{
+  "category": "DSA",
+  "difficulty": "Easy",
+  "question": "Which algorithm is used to search linearly in an array?",
+  "choices": ["Binary search", "Linear search", "DFS", "BFS"],
+  "answer": "Linear search"
+},
+{
+  "category": "DSA",
+  "difficulty": "Easy",
+  "question": "Which data structure uses nodes and pointers?",
+  "choices": ["Array", "Linked List", "Queue", "Stack"],
+  "answer": "Linked List"
+},
+{
+  "category": "DSA",
+  "difficulty": "Easy",
+  "question": "Which data structure uses FIFO?",
+  "choices": ["Stack", "Queue", "Tree", "Heap"],
+  "answer": "Queue"
+}
+,{
+  "category": "DSA",
+  "difficulty": "Medium",
+  "question": "Which traversal visits left subtree → root → right subtree?",
+  "choices": ["Preorder", "Postorder", "Inorder", "Level-order"],
+  "answer": "Inorder"
+},
+{
+  "category": "DSA",
+  "difficulty": "Medium",
+  "question": "Which data structure is used in Depth-First Search (DFS)?",
+  "choices": ["Queue", "Stack", "Heap", "Graph"],
+  "answer": "Stack"
+},
+{
+  "category": "DSA",
+  "difficulty": "Medium",
+  "question": "Which sorting algorithm repeatedly swaps adjacent elements?",
+  "choices": ["Merge Sort", "Quick Sort", "Bubble Sort", "Heap Sort"],
+  "answer": "Bubble Sort"
+}
+,{
+  "category": "DSA",
+  "difficulty": "Hard",
+  "question": "Which algorithm finds the shortest path in a weighted graph with no negative weights?",
+  "choices": ["DFS", "Dijkstra's Algorithm", "Kruskal's Algorithm", "Bellman-Ford"],
+  "answer": "Dijkstra's Algorithm"
+},
+{
+  "category": "DSA",
+  "difficulty": "Hard",
+  "question": "Which data structure is used in Prim’s Minimum Spanning Tree algorithm?",
+  "choices": ["Queue", "Stack", "Priority Queue", "Hash Table"],
+  "answer": "Priority Queue"
+},
+{
+  "category": "DSA",
+  "difficulty": "Hard",
+  "question": "What is the time complexity of searching in a balanced BST?",
+  "choices": ["O(1)", "O(n)", "O(log n)", "O(n log n)"],
+  "answer": "O(log n)"
+},
+{
+  "category": "DSA",
+  "difficulty": "Hard",
+  "question": "Which algorithm is used for topological sorting?",
+  "choices": ["BFS", "DFS", "Binary Search", "Dijkstra"],
+  "answer": "DFS"
+}
+,
+    {
+      "category": "DSA",
+      "difficulty": "Easy",
+      "question": "Which data structure follows the FIFO principle?",
+      "choices": ["Stack", "Queue", "Tree", "Graph"],
+      "answer": "Queue"
+    },
+    {
+      "category": "DSA",
+      "difficulty": "Easy",
+      "question": "Which data structure follows the LIFO principle?",
+      "choices": ["Stack", "Queue", "Array", "Linked List"],
+      "answer": "Stack"
+    },
+    {
+      "category": "DSA",
+      "difficulty": "Easy",
+      "question": "What is the time complexity of binary search on a sorted array?",
+      "choices": ["O(n)", "O(log n)", "O(n^2)", "O(1)"],
+      "answer": "O(log n)"
+    },
+    {
+      "category": "DSA",
+      "difficulty": "Easy",
+      "question": "Which data structure is commonly used to implement recursion internally?",
+      "choices": ["Queue", "Stack", "Array", "Graph"],
+      "answer": "Stack"
+    },
+    {
+      "category": "DSA",
+      "difficulty": "Medium",
+      "question": "Which data structure is best suited for implementing a priority queue?",
+      "choices": ["Stack", "Heap", "Array", "Linked List"],
+      "answer": "Heap"
+    },
+    {
+      "category": "DSA",
+      "difficulty": "Medium",
+      "question": "Which traversal technique visits all nodes of a tree level by level?",
+      "choices": [
+        "In-order traversal",
+        "Pre-order traversal",
+        "Post-order traversal",
+        "Level-order traversal"
+      ],
+      "answer": "Level-order traversal"
+    },
+    {
+      "category": "DSA",
+      "difficulty": "Medium",
+      "question": "Which of the following is a linear data structure?",
+      "choices": ["Tree", "Graph", "Array", "Hash table"],
+      "answer": "Array"
+    },
+    {
+      "category": "DSA",
+      "difficulty": "Hard",
+      "question": "Which searching algorithm works only on sorted arrays?",
+      "choices": [
+        "Linear search",
+        "Binary search",
+        "Depth-first search",
+        "Breadth-first search"
+      ],
+      "answer": "Binary search"
+    },
+    {
+      "category": "DSA",
+      "difficulty": "Hard",
+      "question": "Which of the following is a divide and conquer algorithm?",
+      "choices": ["Bubble sort", "Selection sort", "Merge sort", "Insertion sort"],
+      "answer": "Merge sort"
+    },
+    {
+      "category": "DSA",
+      "difficulty": "Hard",
+      "question": "Which data structure is used in BFS (Breadth-First Search)?",
+      "choices": ["Stack", "Queue", "Array", "Tree"],
+      "answer": "Queue"
+    },
+    {
+  "category": "DSA",
+  "difficulty": "Easy",
+  "question": "Which data structure is best suited for implementing undo operations?",
+  "choices": ["Queue", "Stack", "Array", "Tree"],
+  "answer": "Stack"
+},
+{
+  "category": "DSA",
+  "difficulty": "Easy",
+  "question": "Which data structure stores elements in contiguous memory locations?",
+  "choices": ["Linked List", "Graph", "Array", "Tree"],
+  "answer": "Array"
+},
+{
+  "category": "DSA",
+  "difficulty": "Easy",
+  "question": "Which traversal is typically used to visit all vertices in a tree depth-wise?",
+  "choices": ["BFS", "DFS", "Level-order", "Random"],
+  "answer": "DFS"
+},
+{
+  "category": "DSA",
+  "difficulty": "Medium",
+  "question": "What is the worst-case time complexity of linear search?",
+  "choices": ["O(1)", "O(log n)", "O(n)", "O(n log n)"],
+  "answer": "O(n)"
+},
+{
+  "category": "DSA",
+  "difficulty": "Medium",
+  "question": "Which data structure is typically used to implement a breadth-first search (BFS)?",
+  "choices": ["Stack", "Queue", "Array", "Heap"],
+  "answer": "Queue"
+},
+{
+  "category": "DSA",
+  "difficulty": "Medium",
+  "question": "Which sorting algorithm has an average time complexity of O(n log n) and is based on partitioning?",
+  "choices": ["Bubble sort", "Selection sort", "Quick sort", "Insertion sort"],
+  "answer": "Quick sort"
+},
+{
+  "category": "DSA",
+  "difficulty": "Medium",
+  "question": "Which data structure is ideal for implementing a call stack in programming languages?",
+  "choices": ["Queue", "Stack", "Heap", "Graph"],
+  "answer": "Stack"
+},
+{
+  "category": "DSA",
+  "difficulty": "Hard",
+  "question": "What is the time complexity of inserting an element into a max-heap (in big-O)?",
+  "choices": ["O(1)", "O(log n)", "O(n)", "O(n log n)"],
+  "answer": "O(log n)"
+},
+{
+  "category": "DSA",
+  "difficulty": "Hard",
+  "question": "Which data structure gives average-case O(1) time for search, insert, and delete operations?",
+  "choices": ["Array", "Binary search tree", "Hash table", "Heap"],
+  "answer": "Hash table"
+},
+{
+  "category": "DSA",
+  "difficulty": "Hard",
+  "question": "Which traversal of a binary search tree (BST) visits nodes in sorted order?",
+  "choices": ["Pre-order", "Post-order", "In-order", "Level-order"],
+  "answer": "In-order"
+}
+
+  ]
+}
